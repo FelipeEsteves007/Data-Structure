@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void insertionSort(int arr[], int size);
+void insertion(int arr[], int size);
 
 int main (){
     int numbers[5] = {5,3,2,4,1};
@@ -22,7 +23,7 @@ void insertionSort(int arr[], int size){
         int j = i - 1; // j = 0;
 
         while (j >= 0 && arr[j] > temp){ // 0 >= 0 and arr[0] (5) > temp (3)
-            arr[j + 1] = arr[i]; // {5,5,2,4,1};
+            arr[j + 1] = arr[j]; // {5,5,2,4,1};
             j--; // j = -1
         }
         arr[j + 1] = temp; // arr[-1 + 1] (arr[0]) = {3,5,2,4,1};
