@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 void insertionSort(int arr[], int size);
-void insertion(int arr[], int size);
 
 int main (){
     int numbers[5] = {5,3,2,4,1};
