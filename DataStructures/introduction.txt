@@ -1,0 +1,59 @@
+Introduction to Data Structures
+A data Structure is a way to store and organize data in a computer, so that it can be used efficiently
+1) mathematical/logical models or Abstract data types
+
+Abstract data types (ADTs)
+define data and operations, but no implementation
+
+------ LIST ------
+- Store a given number of elements of a given data-type 
+- Write/modify elemente of a position
+- Empty list has size 0
+- Insert O(n)
+- Remove O(n)
+- Count O(1)
+- Read/Modify element at a position O(1)
+- Specify data-type
+------ LIST ------
+
+------ LINKED LIST ------
+ MEMORY
+ /   ////// [6][217] ///// [5][232] ////// [4][242] //////
+ 200 ->     204   ->       217     ->      232
+
+- Access to elements O(n)
+- Insert/Remove (Head) O(1)
+- Search O(n)
+- Insert/Remove (Middle/End) O(n)
+------ LINKED LIST ------
+
+------ ARRAY X LINKED LIST ------
+1) Cost of accesing an element 
+
+    ARRAY                               LINKED LIST
+    Constant time - O(1)               /   ////// [6][217] ///// [5][232] ////// [4][242] //////
+                                        200 ->     204   ->       217     ->      232  
+    Block                              HEAD        NODE          NODE          NODE 
+    [0][1][2][3][4][5]                          Average case: o(n)
+   200               224
+
+2) Memory requirements
+
+    ARRAY                               LINKED LIST
+    Constant time - O(1)               /   ////// [6][217] ///// [5][232] ////// [4][NULL] //////
+                                        200 ->     204   ->       217     ->      232  
+    Block                              No unused memory
+    [0][1][2][-][-][-]                 Extra memory for pointer variables         
+   Used            Unused
+  One large block                      Multiple small blocks
+
+3) Cost of inserting an element 
+
+    ARRAY                               LINKED LIST
+    [0][1][2][-][-][-]                /   ////// [6][217] ///// [5][232] ////// [4][NULL] //////
+
+                    ARRAY                                         LINKED LIST
+a) at beginning -   O(n)                                          O(1)                   
+b) at end -         O(1) is not full and is full O(n)             O(n)  
+c) at middle -      O(n)                                          O(n)  
+------ ARRAY X LINKED LIST ------
