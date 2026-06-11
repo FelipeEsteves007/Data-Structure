@@ -1,0 +1,17 @@
+LIFO
+Last in First Out
+
+Stack ADI
+A list with the restriction that insertion and deletion can be perfomed only from
+one end, called the top.
+
+Operations (constant time O(1)) 
+- Push
+- Pop
+- Top 
+- IsEmpty
+
+Applications
+- Functions calls / Recursion
+- Undo in an editor 
+- Balanced parantheses
