@@ -1,0 +1,34 @@
+Trees
+- Represent hierarchical data
+- Recursive data structure
+                Root and Nodes
+
+                  [(Root)]            
+                    /   \
+                   /     \  <- Link
+                  /       \
+           [Node B]       [Node C]       
+            /    \           \   <- Link
+           /      \           \
+       [Node D]  [Node E]   [Node F]  <- leaf
+
+Root
+Children
+Parent
+Sibling -> has same parent
+leaf -> has no child 
+
+A is acestor of B
+B is descendent of A
+
+Depth of x = No. lenght to x 
+Height of x = No. of edges in longest path from x to a leaf
+
+Bynary Tree
+A tree in which each node can have at most 2 children
+
+Applications
+- Storing naturally hierarchical data -> eg: - file system
+- Organize data for quick search, insertion, deletion -> eg:  bimary search trees
+- Trie -> dictiorary
+- Network Routing algorithm
