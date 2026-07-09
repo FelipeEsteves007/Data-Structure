@@ -1,0 +1,27 @@
+Binary Tree
+Each node can have most 2 children
+
+ Strict / Proper
+ Each node can have either 2 or 0 children
+               [ Root ]
+                /    \
+            [Node]  [Node]
+                    /    \
+                [Leaf] [Leaf]
+
+ Complete Binary Tree
+ All levels except possibly the last are completely
+ filled and all nodes are as left as possible
+                 [ Root ]            
+                  /    \
+              [Node]  [Node]          
+              /    \    /
+          [Leaf][Leaf][Leaf]
+
+ Perfect Binary Tree
+ Maximum no. of nodes in a tree with heigh
+                 [ Root ]             
+                  /    \
+              [Node]  [Node]         
+              /    \  /    \
+          [Leaf][Leaf][Leaf][Leaf]
