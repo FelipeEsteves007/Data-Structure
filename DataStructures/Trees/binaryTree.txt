@@ -25,3 +25,23 @@ Each node can have most 2 children
               [Node]  [Node]         
               /    \  /    \
           [Leaf][Leaf][Leaf][Leaf]
+
+We can implement binary tree using
+- dynamically created nodes
+- arrays (used for heaps)
+
+    Binary Search Tree
+Array 
+ - Search(x) O(n)
+ - Insert(x) O(1)
+ - Remove(x) O(n)
+
+Linked List
+- Search(x) O(n)
+- Insert(x) O(1)
+- Remove(x) O(1)
+
+BST
+- Search(x) O(log n)
+- Insert(x) O(log n)
+- Remove(x) O(log n)
