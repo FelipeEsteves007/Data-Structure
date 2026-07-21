@@ -1,0 +1,9 @@
+ Tree traversal:
+ process of visiting each node in the tree exactly once in some order
+
+  Breadth-first
+ - level-order traversal
+  Depth-first
+ - <root><left><right> - pre-order traversal
+ - <left><root><right> - in-order traversal
+ - <left><right><root> - post-order traversal
